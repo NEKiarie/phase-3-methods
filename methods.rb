@@ -9,8 +9,8 @@ def greet(name)
     puts "Hello, #{name}!"
 end
 
-greet"Naureen"
-greet "Jimmy"
+greet "Naureen"
+greet  "Jimmy"
 
 
 def greet_with_default(name = "Naureen")
@@ -42,8 +42,9 @@ def halve (number)
     end
     number/2
 end
-halve (2)
 halve ("two")
+halve (2)
+
 
 
 
